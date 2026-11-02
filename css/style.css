@@ -558,7 +558,7 @@ html.js [data-reveal].is-in{opacity:1;transform:none}
 .cover__frame{position:absolute;inset:calc(var(--pw)*.045);border:2px solid currentColor;opacity:.5;border-radius:6px;pointer-events:none}
 .cover__frame::after{content:"";position:absolute;inset:5px;border:1px solid currentColor;border-radius:3px}
 .cover__brand{font-family:var(--script);font-size:calc(var(--pw)*.1);line-height:1;opacity:.9}
-.cover__title{align-self:center;font-family:var(--script);font-weight:400;font-size:calc(var(--pw)*.2);line-height:1;text-wrap:balance;text-shadow:0 2px 0 rgba(0,0,0,.18)}
+.cover__title{align-self:center;font-family:var(--script);font-weight:400;font-size:calc(var(--pw)*.15);line-height:1;text-wrap:balance;text-shadow:0 2px 0 rgba(0,0,0,.18)}
 .cover__title span{display:block}
 .cover__rule{display:block;width:34%;height:2px;background:currentColor;opacity:.6;border-radius:2px;margin-bottom:calc(var(--pw)*.03)}
 .reader[data-orient="v"] .cover__front{border-radius:0 0 10px 10px;background:var(--cloth),linear-gradient(180deg,rgba(0,0,0,.45) 0,rgba(255,255,255,.14) 4%,rgba(255,255,255,0) 14%,rgba(0,0,0,.14) 100%),var(--c);background-size:120px 120px,auto,auto}
@@ -580,7 +580,7 @@ html.js [data-reveal].is-in{opacity:1;transform:none}
 .page > *{opacity:0;transform:translateY(10px)}
 .tome.is-read .page > *{animation:pagein .7s var(--ease) both;animation-delay:calc(var(--k,0)*.09s)}
 @keyframes pagein{to{opacity:1;transform:none}}
-.page__title{font-family:var(--script);font-weight:400;font-size:max(30px,calc(var(--pw)*.112));line-height:1.05;color:var(--navy);padding-block:.06em;overflow-wrap:anywhere}
+.page__title{font-family:var(--script);font-weight:400;font-size:max(26px,calc(var(--pw)*.09));line-height:1.05;color:var(--navy);padding-block:.06em;overflow-wrap:anywhere}
 .page__rule{display:block;width:30%;height:3px;border-radius:3px;background:var(--brick);flex:none}
 .page__aud{font-weight:700;font-size:max(13px,calc(var(--pw)*.044));color:var(--brick);line-height:1.3}
 .page__desc{font-weight:500;font-size:max(13px,calc(var(--pw)*.047));line-height:1.5;color:var(--slate)}
@@ -590,7 +590,8 @@ html.js [data-reveal].is-in{opacity:1;transform:none}
 .page__list li::before{content:"";position:absolute;left:.1em;top:.5em;width:.5em;height:.5em;background:var(--brick);transform:rotate(45deg)}
 .page__num{margin-top:auto;text-align:center;font-size:.85rem;color:var(--stone);letter-spacing:.2em}
 .reader[data-orient="v"] .page{padding:calc(var(--pw)*.06) calc(var(--pw)*.08) calc(var(--pw)*.07);gap:calc(var(--pw)*.02)}
-.reader[data-orient="v"] .page__title{font-size:max(32px,calc(var(--pw)*.11))}
+.reader[data-orient="v"] .page__title{font-size:max(26px,calc(var(--pw)*.09))
+}
 .reader[data-orient="v"] .page__list{gap:calc(var(--pw)*.014)}
 .reader[data-orient="v"] .page__list li,.reader[data-orient="v"] .page__desc{font-size:max(13px,calc(var(--pw)*.042))}
 .reader[data-orient="v"] .page__num{display:none}
