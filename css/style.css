@@ -343,7 +343,7 @@ html.js [data-reveal].is-in{opacity:1;transform:none}
 .plan__list li{position:relative;padding-left:1.3em;font-weight:700;font-size:clamp(1.3rem,2.6vw,2.3rem);line-height:1.12}
 .plan__list li::before{content:"*";position:absolute;left:0;top:.05em;color:var(--brick);font-size:1.1em}
 .plan__side{display:grid;justify-items:center;text-align:center;gap:6px}
-.plan__name{font-family:var(--script);font-weight:400;color:var(--navy);font-size:clamp(3.4rem,6.6vw,5.8rem);line-height:1.1;margin-bottom:.1em;padding-block:.05em}
+.plan__name{font-family:var(--script);font-weight:400;color:var(--navy);font-size:clamp(2.4rem,4.2vw,3.6rem);line-height:1.1;margin-bottom:.1em;padding-block:.05em}
 .plan__label{font-weight:700;font-size:clamp(1.1rem,2vw,1.6rem);color:var(--brick);line-height:1;letter-spacing:.1em;text-transform:lowercase}
 .plan__price{font-weight:700;color:var(--navy);font-size:clamp(2.4rem,5vw,4.4rem);line-height:1;letter-spacing:.01em;font-variant-numeric:tabular-nums;
   background:linear-gradient(transparent 62%,var(--sage) 62% 92%,transparent 92%);padding-inline:.2em}
